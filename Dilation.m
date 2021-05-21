@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 
-Im=imread('D_4034pp.png');   
+Im=imread('PREPROCESSED_IMAGE.png');   
   
 % convert to binary  
 Im=im2bw(Im); 
