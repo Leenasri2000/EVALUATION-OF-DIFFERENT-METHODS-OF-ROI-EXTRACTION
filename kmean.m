@@ -1,7 +1,7 @@
 clc;
 clear all;
 close all;
-RGB = imread('D_4034pp.png');
+RGB = imread('PREPROCESSED_IMAGE.png');
 RGB = imresize(RGB,5.0);
 figure,imshow(RGB);
 title('original Image');
