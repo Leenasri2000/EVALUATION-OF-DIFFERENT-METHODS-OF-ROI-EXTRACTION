@@ -1,9 +1,9 @@
 # EVALUATION-OF-DIFFERENT-METHODS-OF-ROI-EXTRACTION
- Here the evaluation of different methods of region of interet extraction for mammogram images is done and the overlap ratio, SSIM, and dice similarity indx are found outh with respect to ground truth. 
- The database used here is MINI-DDSM database from kaggle. 
- The methods that are evaluated here is WATERSHED TRANSFORM, K-MEANS CLUSTERING, EDGE DETECTING METHOD(SOBEL OPERAATOR) AND MORPHOLOGICAL OPERATIONS(DILATION AND EROSION)
- The reason for using these methods is the breast cancer rate in women was increasing very rapidly, so that there is a need for effective and faster diagnosis. The above mentioned methods are fast and simple. So after evaluation is done another method that is used to increase its efficiency is introduced.
- .m represents the matlab file
+% Here the evaluation of different methods of region of interet extraction for mammogram images is done and the overlap ratio, SSIM, and dice similarity indx are found outh with respect to ground truth. 
+# The database used here is MINI-DDSM database from kaggle. 
+# The methods that are evaluated here is WATERSHED TRANSFORM, K-MEANS CLUSTERING, EDGE DETECTING METHOD(SOBEL OPERAATOR) AND MORPHOLOGICAL OPERATIONS(DILATION AND EROSION)
+# The reason for using these methods is the breast cancer rate in women was increasing very rapidly, so that there is a need for effective and faster diagnosis. The above mentioned methods are fast and simple. So after evaluation is done another method that is used to increase its efficiency is introduced.
+# .m represents the matlab file
  CANCERDB.rar is the database used
  preprocess.m is the preprocessing of the mammogram images in the database
  watershed.m is the watershed transform of the preprocessed image
