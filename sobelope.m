@@ -1,7 +1,7 @@
 clc;
 clear all;
 close all;
-A = imread('D_4034pp.png')
+A = imread('PREPROCESSED_IMAGE.png')
 figure(1),imshow(A)
 title('Original Image')
 threshold =175;
