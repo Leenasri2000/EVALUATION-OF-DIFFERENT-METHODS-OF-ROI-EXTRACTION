@@ -2,7 +2,7 @@ clc;clear;close all
 
 %% Getting Image
 
-i=imread('D_4034.jpg');
+i=imread('ORIGINAL_IMAGE.jpg');
 figure(1)
 imshow(i);title('Original Photo')
 
