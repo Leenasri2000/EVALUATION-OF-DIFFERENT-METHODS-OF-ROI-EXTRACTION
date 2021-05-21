@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 % read the input CT image
-I=imread('images (1).jpg');
+I=imread('PRPROCESSED_IMAGE.jpg');
 figure;
 imshow(I);
 title('ORIGINAL IMAGE');
