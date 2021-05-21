@@ -17,3 +17,4 @@
  Here the overlap ratio, dice index and the SSIM have the values from 0 to 1. If it is zero it is not overlapped and not structyrally similar. If it is one they are completely overlapped and structurally similar. 
  morphological_multiplethresh.m is the morphological operation integrated with multiple thresholding. 
  As morphological operation has the high efficiency, in order to improve that we have integrated themorphological operations with multiple threholding so that the efficiency increases.
+[EVALUATION OF DIFFERENT METHODS OF ROI EXTRACTION.pdf](https://github.com/Leenasri2000/EVALUATION-OF-DIFFERENT-METHODS-OF-ROI-EXTRACTION.github.io/files/6520604/EVALUATION.OF.DIFFERENT.METHODS.OF.ROI.EXTRACTION.pdf)
