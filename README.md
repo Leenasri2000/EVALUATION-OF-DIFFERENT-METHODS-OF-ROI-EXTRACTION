@@ -1,4 +1,5 @@
 # EVALUATION-OF-DIFFERENT-METHODS-OF-ROI-EXTRACTION
+###### Iam LEENASRI, an undergraduate student in biomedical engineering. I have an interest in image processing and started studying about it in deep. As I came to know about tumor that are major cause of death in human beings and I started working on tumor image processing. First I have started processing mammogram that is used for breast cancers. Here I have done the evaluation of methods that are used for region of intrest extraction in mammogram images as region of interest plays a major role in tumor processing.
 ###### Here the evaluation of different methods of region of interet extraction for mammogram images is done and the overlap ratio, SSIM, and dice similarity indx are found outh with respect to ground truth. 
 ###### The database used here is MINI-DDSM database from kaggle. 
 ###### The methods that are evaluated here is WATERSHED TRANSFORM, K-MEANS CLUSTERING, EDGE DETECTING METHOD(SOBEL OPERAATOR) AND MORPHOLOGICAL OPERATIONS(DILATION AND EROSION)
@@ -8,7 +9,7 @@
 ###### preprocess.m is the preprocessing of the mammogram images in the database
 ###### watershed.m is the watershed transform of the preprocessed image
 ###### kmeans.m is the k-means clustering for the preprocessed image
-###### sobelope.m is the edge detecting metho(i.e., sobel operator) for the preprocessed image
+###### sobelope.m is the edge detecting method(i.e., sobel operator) for the preprocessed image
 ###### dilation.m is the dilation and erosion method for the preprocessed image
 ###### superimpose.m is the superimposeing of extracted roi for different methods and the given mask(i.e., ground truth)
 ###### overlap.m is to find the overlap ratio used to find the ratio of overlapping between the extracted roi bounding box value and the ground truth bounding box value
@@ -17,4 +18,3 @@
 ###### Here the overlap ratio, dice index and the SSIM have the values from 0 to 1. If it is zero it is not overlapped and not structyrally similar. If it is one they are completely overlapped and structurally similar. 
 ###### morphological_multiplethresh.m is the morphological operation integrated with multiple thresholding. 
 ###### As morphological operation has the high efficiency, in order to improve that we have integrated themorphological operations with multiple threholding so that the efficiency increases.
-###### [EVALUATION OF DIFFERENT METHODS OF ROI EXTRACTION.pdf](https://github.com/Leenasri2000/EVALUATION-OF-DIFFERENT-METHODS-OF-ROI-EXTRACTION.github.io/files/6520604/EVALUATION.OF.DIFFERENT.METHODS.OF.ROI.EXTRACTION.pdf)
